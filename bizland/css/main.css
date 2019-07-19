@@ -1,1 +1,70 @@
+.primary-overlay {
+   background: rgba(63, 57, 77, 0.5); 
+   position: absolute;
+   top: 0;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+
+.main-header {
+    background: url(../img/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    /* vh means view fort height */
+    min-height: 600px;
+    color: #ffffff;
+    position: relative;
+}
+
+.main-header .showcase   {
+    padding-top: 110px;
+}
+
+.scroll-icon {
+    position: absolute;
+    bottom: 5%;
+    left: 47%;
+    opacity: 0.8;
+}
+
+.box {
+    /* min-height: 355px !important; */
+    padding: 40px 10px !important;
+    /* top bottom left right for padding, 40 for top and bottom 10px for left and right */
+}
+
+.section-testimonial .card {
+    min-height: 300px;
+}
+
+.section-contact {
+    position: relative;
+}
+
+.section-contact .card-panel {
+    position: relative;
+    z-index: 1;
+}
+
+#googlemap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;;
+    left: 0%;
+    z-index: 0;
+  
+}
+
+@media (max-width: 600px) {
+    .main-header {
+        height: 50vh;
+    }
+}
+
+
+
 
